@@ -1,4 +1,5 @@
 📊 HR Performance Intelligence Dashboard
+
 Department Benchmarking, Ranking & Tenure Analytics using Power BI
 
 🔎 Project Objective
@@ -96,6 +97,27 @@ DATEDIFF(
     YEAR
 )*
 
+📈 Key Insights
+
+1.Sales and IT departments perform above company benchmark.
+2.Finance department shows below-average performance, indicating improvement scope.
+3.Higher tenure departments demonstrate more stable rating patterns.
+4.Ranking logic highlights competitive hierarchy across business units.
+
+🚧 Challenges Faced
+
+1.Auto-detected relationship initially created incorrect filter behavior.
+2.Needed to correct cardinality to enforce proper star schema structure.
+3.Managed filter context using CALCULATE and ALL.
+4.Resolved slicer filtering issue by standardizing dimension usage.
+5.Avoided many-to-many modeling complications.
+
+▶ How to Use
+
+>Download the .pbix file
+>Open in Power BI Desktop
+>Use Department slicer to explore performance
+>Analyze ranking, benchmark comparison, and tenure metrics
 
 🛠 Technical Skills Demonstrated
 
@@ -142,5 +164,6 @@ DATEDIFF(
 
 
 👤 Author
+
 Shubhayan Kundu
 Aspiring Data Analyst | Power BI | SQL | Python
